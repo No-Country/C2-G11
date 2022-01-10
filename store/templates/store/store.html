@@ -2,12 +2,6 @@
 {% load static %}
 {% block content %}
 
-<style>
-    .box-element{
-        margin-bottom: 30px;
-    }
-</style>
-
 <div class="row">
     {% for product in products %}
     <div class="col-lg-4">
@@ -16,8 +10,11 @@
             <h6><strong>{{product.name}}</strong></h6>
             <hr>
 
-            <button style="border-radius: 5px" class="btn btn-success";>Añadir al carrito</button>
-            <a style="border-radius: 5px" class="btn btn-light" href="#">Ver más</a>
+            <!-- Agregué Botón Añadir carrito -->
+            <button data-product="{{product.id}}" data-action="add" class="btn btn-outline-secondary add-btn update-cart">Añadir al Carrito</button>
+
+            <!-- <button style="border-radius: 5px" class="btn btn-success";>Añadir al carrito</button> -->
+            <a style="border-radius: 5px" class="btn btn-outline-success" href="#">Ver más</a>
             <h4 style="float:right"><strong>${{product.price|floatformat:2}}</strong></h4>
             
         </div>

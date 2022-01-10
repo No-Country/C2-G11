@@ -11,7 +11,7 @@ class Customer(models.Model):
 	def __str__(self):
 		return self.name
 
-
+# Si es digital o no, no es necesario en la base de datos
 class Product(models.Model):
 	name = models.CharField(max_length=200)
 	price = models.FloatField()
