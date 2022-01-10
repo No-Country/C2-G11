@@ -1,12 +1,14 @@
 
-
-function cambiarModo() {
-    var cuerpoweb = document.body;
-    cuerpoweb.classList.toggle("oscuro");
-}
-
 .oscuro{
     background-color: #1f1f1f;
     text-color: #ffffff;
 }
 
+.claro{
+  background-color: #ffffff;
+  color: #000000;
+}
+
+p {
+  text-align: justify;
+}
