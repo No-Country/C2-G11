@@ -3,6 +3,11 @@
 ## Descripción
 Proyecto E-commerce "Vida Verde" de compra-venta de frutas/verduras, empleando sistema de transaccion "Paypal", esta basado en Django 4 y MySQL 8 como base de datos.
 
+## Colaboradores
+- @Pablex05
+- @farguto
+- @Nbcornet
+- @JoaquinGorosito
 ## Requerimientos
 	- Python v3.x
 	- MySQL v8.x.x
@@ -44,7 +49,6 @@ Proyecto E-commerce "Vida Verde" de compra-venta de frutas/verduras, empleando s
 	5. Crear la base de datos en MySQL 
 	6. Modificar los parametros de la base de datos del archivo "./ecommerce/settings.py"
 	7. ejecutar los comandos "makemigrations" y "migrate" para crear las tablas de la Base de Datos
-
 	8. y como ultimo, para iniciar el servidor ejecutar el "runserver"
 
 ### 1. Descargar Repositorio
@@ -86,7 +90,7 @@ Proyecto E-commerce "Vida Verde" de compra-venta de frutas/verduras, empleando s
     EMAIL_USE_TLS = True
     EMAIL_HOST = 'smtp.gmail.com'
     EMAIL_HOST_USER = 'vidaverde.ecommerce@gmail.com'
-    EMAIL_HOST_PASSWORD = 'Vidaverde1234'
+    EMAIL_HOST_PASSWORD = '       '
     EMAIL_PORT = 587
 #### Referencias
     "EMAIL_HOST" es el gestor de correo
