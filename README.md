@@ -47,7 +47,7 @@ Proyecto E-commerce "Vida Verde" de compra-venta de frutas/verduras, empleando s
 	3. Ingresar al entorno virtual
 	4. Instalar desde Requirements.txt
 	5. Crear la base de datos en MySQL 
-	6. Modificar los parametros de la base de datos del archivo "./ecommerce/settings.py"
+	6. Modificar los parametros Databases y Email del archivo "./ecommerce/settings.py"
 	7. ejecutar los comandos "makemigrations" y "migrate" para crear las tablas de la Base de Datos
 	8. y como ultimo, para iniciar el servidor ejecutar el "runserver"
 
