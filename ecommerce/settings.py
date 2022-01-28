@@ -66,11 +66,11 @@ WSGI_APPLICATION = 'ecommerce.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'e-commerce',
-        'USER': 'root',
-        'PASSWORD': '123456789',
-        'HOST': 'localhost',
-        'PORT': 3306
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': '',
+        'HOST': '',
+        'PORT': 
     }
 }
 
@@ -132,6 +132,6 @@ LOGIN_REDIRECT_URL = 'store'
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'vidaverde.ecommerce@gmail.com'
-EMAIL_HOST_PASSWORD = 'Vidaverde1234'
+EMAIL_HOST_PASSWORD = ''
 EMAIL_PORT = 587
 
