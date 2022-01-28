@@ -91,24 +91,6 @@ class ShippingAddress(models.Model):
         return self.address
 
 
-class Profile(models.Model):
-    user = models.OneToOneField(User, on_delete=models.CASCADE)
-    image = models.ImageField(default='batman.png')
-
-    def __str__(self):
-        return f'Perfil de {self.user.username}'
-
-    def following(self):
-        user_ids = Relationship.objects.filter(from_user=self.user) \
-            .values_list('to_user_id', flat=True)
-        return User.objects.filter(id__in=user_ids)
-
-    def followers(self):
-        user_ids = Relationship.objects.filter(to_user=self.user) \
-            .values_list('from_user_id', flat=True)
-        return User.objects.filter(id__in=user_ids)
-
-
 class Relationship(models.Model):
     from_user = models.ForeignKey(User, related_name='relationships', on_delete=models.CASCADE)
     to_user = models.ForeignKey(User, related_name='related_to', on_delete=models.CASCADE)
