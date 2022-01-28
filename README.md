@@ -67,7 +67,7 @@ Proyecto E-commerce "Vida Verde" de compra-venta de frutas/verduras, empleando s
     pip install -r requirements.txt
 ### 5-Crear la base de datos
     Ingresamos al MySQL Workbench (o aplicacion que gestione base de datos) y Crea la base de datos
-### 6-Modificar los parametros de la base de datos del archivo "./ecommerce/settings.py"
+### 6-Modificar los parametros Databases y Email del archivo "./ecommerce/settings.py"
 #### Ejemplo DATABASES
     DATABASES = {
     'default': {
