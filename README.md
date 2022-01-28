@@ -8,7 +8,7 @@ Proyecto E-commerce "Vida Verde" de compra-venta de frutas/verduras, empleando s
 - @farguto
 - @Nbcornet
 - @JoaquinGorosito
-## Requerimientos
+## Requerimientos previos
 	- Python v3.x
 	- MySQL v8.x.x
 	- Pip 20.x.x
